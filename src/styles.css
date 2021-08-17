@@ -1,0 +1,50 @@
+#root {
+  --primary-color: #2e294e;
+  --secondary-color: #f1e9da;
+}
+body {
+  margin: 0;
+  background-image: linear-gradient(
+    to right,
+    rgba(112, 21, 231, 0.205),
+    rgb(74, 144, 235)
+  );
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  padding: 3rem;
+  /* background-color: white; */
+}
+
+.main {
+  min-height: 100vh;
+}
+
+input {
+  padding: 1rem;
+}
+
+.btn {
+  border: 1px solid var(--primary-color);
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.result {
+  /* padding-top: 3rem; */
+  background-color: var(--secondary-color);
+  min-height: 30vh;
+}
